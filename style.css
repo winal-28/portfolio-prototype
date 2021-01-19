@@ -154,6 +154,7 @@ section {
   color: #19dafa;
   transition: all 0.3s ease;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .link:hover {
@@ -162,6 +163,77 @@ section {
 
 div img {
   border-radius: 50%;
+}
+
+.technologies-section i {
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.technologies li {
+  cursor: pointer;
+  display: flex;
+  align-items: center !important;
+  width: 60%;
+  transition: all 0.5s ease;
+  font-size: 1.2rem;
+  color: #cacaca;
+  margin: auto;
+  height: 2.5rem;
+}
+
+.technologies li:hover {
+  transform: translateX(10px);
+}
+
+.react-icon {
+  color: #19dafa !important;
+}
+
+.vue-icon {
+  color: lightgreen !important;
+}
+
+.raspberry-pi-icon {
+  color: red !important;
+}
+
+.python-icon {
+  color: greenyellow !important;
+}
+
+.git-icon {
+  color: rgb(13, 230, 201);
+}
+
+.git:hover {
+  color: rgb(13, 230, 201);
+  text-shadow: 0px 0px 10px lightgreen;
+}
+
+.python:hover {
+  color: greenyellow;
+  text-shadow: 0px 0px 10px greenyellow;
+}
+
+.raspberry-pi:hover {
+  color: red;
+  text-shadow: 0px 0px 0px rgb(247, 83, 132);
+}
+
+.react:hover {
+  color: #19dafa !important;
+  text-shadow: 0px 0px 10px #19dafa;
+}
+
+.vue:hover {
+  color: lightgreen;
+  text-shadow: 0px 0px 10px lightgreen;
+}
+
+.technologies {
+  list-style: none;
+  text-align: center;
 }
 
 .technologies-header {
