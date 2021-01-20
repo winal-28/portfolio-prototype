@@ -335,6 +335,11 @@ div img {
   img {
     width: 50%;
   }
+
+  .technologies-section {
+    flex-direction: column;
+    padding-top: 20%;
+  }
 }
 
 --moz::selection {
